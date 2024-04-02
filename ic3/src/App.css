@@ -1,0 +1,35 @@
+.appContainer{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.display{
+  border: solid 1px;
+  width: 30vw;
+  height: 30vh;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+}
+
+.displayCount{
+  border: solid 1px;
+  width: 100px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.buttons button{
+  width: 100px;
+  height: 40px;
+  margin: 0px 50px;
+}
